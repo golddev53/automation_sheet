@@ -1,0 +1,13 @@
+Create a new question
+---
+tags:
+  - questions
+parameters:
+  - name: query
+    in: formData
+    type: string
+    required: true
+    description: Enter the query
+responses:
+  200:
+    description: Success

@@ -1,0 +1,13 @@
+Upload a file
+---
+tags:
+  - files
+parameters:
+  - name: file
+    in: formData
+    type: file
+    required: true
+    description: The file to upload
+responses:
+  200:
+    description: Success
